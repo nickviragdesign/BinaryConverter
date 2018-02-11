@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		014C2FB3202FAC13005B7C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C2FB2202FAC13005B7C7A /* AppDelegate.swift */; };
-		014C2FB5202FAC13005B7C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C2FB4202FAC13005B7C7A /* ViewController.swift */; };
 		014C2FB8202FAC13005B7C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014C2FB6202FAC13005B7C7A /* Main.storyboard */; };
 		014C2FBA202FAC13005B7C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014C2FB9202FAC13005B7C7A /* Assets.xcassets */; };
 		014C2FBD202FAC13005B7C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014C2FBB202FAC13005B7C7A /* LaunchScreen.storyboard */; };
 		014C2FC8202FAC14005B7C7A /* BinaryConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C2FC7202FAC14005B7C7A /* BinaryConverterTests.swift */; };
 		014C2FD3202FAC14005B7C7A /* BinaryConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C2FD2202FAC14005B7C7A /* BinaryConverterUITests.swift */; };
+		014C2FE3202FAF7A005B7C7A /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C2FE2202FAF7A005B7C7A /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		014C2FAF202FAC13005B7C7A /* BinaryConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014C2FB2202FAC13005B7C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		014C2FB4202FAC13005B7C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		014C2FB7202FAC13005B7C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		014C2FB9202FAC13005B7C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014C2FBC202FAC13005B7C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		014C2FCE202FAC14005B7C7A /* BinaryConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014C2FD2202FAC14005B7C7A /* BinaryConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConverterUITests.swift; sourceTree = "<group>"; };
 		014C2FD4202FAC14005B7C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014C2FE2202FAF7A005B7C7A /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				014C2FB2202FAC13005B7C7A /* AppDelegate.swift */,
-				014C2FB4202FAC13005B7C7A /* ViewController.swift */,
 				014C2FB6202FAC13005B7C7A /* Main.storyboard */,
 				014C2FB9202FAC13005B7C7A /* Assets.xcassets */,
 				014C2FBB202FAC13005B7C7A /* LaunchScreen.storyboard */,
 				014C2FBE202FAC13005B7C7A /* Info.plist */,
+				014C2FE2202FAF7A005B7C7A /* ConversionViewController.swift */,
 			);
 			path = BinaryConverter;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014C2FB5202FAC13005B7C7A /* ViewController.swift in Sources */,
+				014C2FE3202FAF7A005B7C7A /* ConversionViewController.swift in Sources */,
 				014C2FB3202FAC13005B7C7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
